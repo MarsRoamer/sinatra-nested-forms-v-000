@@ -7,6 +7,10 @@ module FormsLab
       erb :new
     end
 
+    get '/new' do
+      erb :new
+    end
+
     post '/pirates' do
       @hook = Pirate.new(params[:pirate])
       erb :display
