@@ -13,8 +13,8 @@ module FormsLab
 
     post '/pirates' do
 
-      @hook = Pirate.new(params[:pirate])
-      binding.pry
+      # @hook = Pirate.new(params[:pirate])
+      # binding.pry
       erb :display
     end
 
