@@ -8,6 +8,7 @@ module FormsLab
     end
 
     post '/pirates' do
+      hook = Pirate.new(params[:pirate])
       erb :display
     end
 
